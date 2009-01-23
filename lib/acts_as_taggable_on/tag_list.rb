@@ -75,7 +75,7 @@ class TagList < Array
     def from(tags)
       return new(tags) if tags.is_a? Array
       returning new do |tag_list|
-        string = string.to_s.dup
+        string = tags.to_s.dup
         
         # Parse the quoted tags
         string.gsub!(/"(.*?)"\s*#{delimiter}?\s*/) { tag_list << $1; "" }
