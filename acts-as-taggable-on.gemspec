@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = "acts-as-taggable-on"
-  s.version = "1.0.2"
-  s.date = "2008-06-10"
+  s.version = "1.0.2-s1"
+  s.date = "2009-01-22"
   s.summary = "Tagging for ActiveRecord with custom contexts and advanced features."
   s.email = "michael@intridea.com"
   s.homepage = "http://www.actsascommunity.com/projects/acts-as-taggable-on"
@@ -14,7 +14,6 @@ Gem::Specification.new do |s|
               "generators/acts_as_taggable_on_migration",
               "generators/acts_as_taggable_on_migration/acts_as_taggable_on_migration_generator.rb",
               "generators/acts_as_taggable_on_migration/templates",
-              "generators/acts_as_taggable_on_migration/templates/add_users_migration.rb",
               "generators/acts_as_taggable_on_migration/templates/migration.rb",
               "init.rb",
               "lib/acts-as-taggable-on.rb",
@@ -32,7 +31,6 @@ Gem::Specification.new do |s|
               "spec/acts_as_taggable_on/taggable_spec.rb",
               "spec/acts_as_taggable_on/tagger_spec.rb",
               "spec/acts_as_taggable_on/tagging_spec.rb",
-              "spec/debug.log",
               "spec/schema.rb",
               "spec/spec_helper.rb",
               "uninstall.rb" ]
